@@ -1,3 +1,5 @@
+Colors:
+---
 White
 Black
 Red
@@ -7,6 +9,9 @@ Gray
 Pink
 Purple
 Brown
+
+Tones:
+---
 Bright
 Dark
 Soft
