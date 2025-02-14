@@ -1,0 +1,47 @@
+Git-Bash Commands:
+------------------------------------
+cd # change directory
+cd .. # go up one directory
+pwd # print working directory
+ls # list current working directory
+ls -all	# list all things in the current working directory
+clear # clear the screen
+open . # (open this ... directory)
+------------------------------------
+git commit # Committing your changes into the last repository
+git init # 
+git clone https://github.com/volkan-mert/trainings.git # Cloning a repository into your local
+git status # when you are in the locally saved GitHub repository it shows many information like "modified" related with the status of directory.
+git commit -a -m "Adding the key of C" # git commit all changes with any message "..."
+git config --global user.name "volkan-mert" # Git GUI knows who you are when you are working on your repository, but your computer doesn't know who you are.
+git config --global user.email volkan.mert@tai.com.tr # your computer needs to know who you are with your user email.
+git config --list # Listing all of the configuration settings listed in this computer. It is good for checking whether your name and email have been set.
+git log -2 # You can see only the last 2 commits (CLOG: commit logs)
+git commit -a -m "Adding a happy song" # After you have changed your file in the local of your PC you can commit this change with an explanation "...".
+git remote -v # you should say where to push (remote or into a cloud) Here -v means "verbose" ~ayrıntılı etc. origin
+git push origin master # to connect your remote (cloud) with "Username for 'https://github.com':volkan-mert", "Password for 'https://github.com': *****" 
+git add. # Adding all modified and new (untracked) files in the current directory and all subdirectories to the staging area (aka the index)
+git init # Initializing empty Git repository in your local disc /.../trainings/.git/
+git status
+git origin master
+git remote
+git remote -v
+git remote add origin # origin is a convention you can use any name you want, this is for adding a remote repository to your local Git repository
+git remote add gh-pages #
+git pull origin gh-pages #
+git remote remove origin
+git remote -v
+git remote add github git@github.com:volkan-mert/trainings
+git pull origin master
+git pull github master
+git remote example git@github.com:volkan-mert/example
+git branch graphics
+git checkout graphics
+git merge graphics
+
+
+
+  
+
+
+
