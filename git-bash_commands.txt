@@ -38,6 +38,15 @@ git remote example git@github.com:volkan-mert/example
 git branch graphics
 git checkout graphics
 git merge graphics
+git add .
+git commit -m "initial commit of myexample.txt"
+git branch main
+git checkout main # Switching to branch 'main'
+git remove master
+git branch -D master # Deleting a git branch from the local machine
+git remote add origin git@github.com:volkan-mert/example-demo2.git # origin is an optional remote name.
+git push -u origin main
+
 
 
 
